@@ -1,2 +1,1 @@
-# phd-proposal
-phd thesis proposal
+PhD thesis proposal
