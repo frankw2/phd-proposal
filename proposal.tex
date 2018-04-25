@@ -1,7 +1,21 @@
 \documentclass[12pt,letterpaper]{article}
 \usepackage{amsfonts,amssymb,amsmath,epsfig,setspace,comment}
 \usepackage[letterpaper,left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
-\usepackage{url}
+\usepackage[hyphens]{url}
+
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{color}
+\usepackage{xspace}
+\usepackage{wasysym}
+\usepackage[small,compact]{titlesec}
+\usepackage{multirow}   
+\usepackage{enumitem}
+%\usepackage{fancyvrb}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{caption}
+\usepackage{tabularx}
+\usepackage{nopageno}
 
 \sloppy		% better line breaks
 
@@ -26,8 +40,8 @@
 \input{veil}
 \input{timeline}
 
-\bibliography{bibliography}
-\bibliographystyle{abbrv}
+\bibliography{n-str,bibliography,n,n-conf}
+\bibliographystyle{unsrt}
 
 
 \end{document}
