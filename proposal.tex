@@ -18,6 +18,14 @@
 \usepackage{nopageno}
 \usepackage{verbatim}
 
+\def\blankpage{%
+	\clearpage%
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\null%
+	\clearpage}
+
+
 \sloppy		% better line breaks
 
 
@@ -31,6 +39,7 @@
 % Title/Cover page
 \input{propcover}
 \newpage
+\blankpage
 \doublespacing
 
 \setcounter{page}{1}
